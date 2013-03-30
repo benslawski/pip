@@ -1,0 +1,4 @@
+time:	<div id="ref_14546367_ldt" class="time">{{ time_val }}<div id="ref_14546367_ldt" class="time">
+exchange:	<div id="currency_value" class="sfe-section">garbage<span class="bld">{{ exchange_rate }} USD</span>
+url:	http://www.google.com/finance?q=CURRENCY%3A{{ currency_code }}
+
