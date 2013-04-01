@@ -103,10 +103,10 @@ class APICallerThread(Thread):
         dumpfile.write(content)
         dumpfile.close()
 
-##        timestamp = content.split('<div id="ref_14546367_ldt" class="time">')[1] \
-##                           .split('<div id="ref_14546367_ldt" class="time">')[0] \
-##                           .strip()
-##        print timestamp
+        timestamp = content.split('<div id="ref_14546367_ldt" class="time">')[1] \
+                           .split('<div id="ref_14546367_ldt" class="time">')[0] \
+                           .strip()
+        print timestamp
 
         timestep = 'None'
         exchange = content.split('<div id="currency_value" class="sfe-section">')[1] \
